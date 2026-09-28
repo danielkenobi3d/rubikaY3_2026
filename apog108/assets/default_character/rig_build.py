@@ -6,7 +6,7 @@ from RMPY.core import controls
 from RMPY.rig import rigHierarchy
 import pymel.core as pm
 from pathlib import Path
-from rubikaY3_2026.Professor.assets.default_character import rig_facial
+from rigBuilds.assets.default_character import rig_facial
 
 
 def import_geometry():

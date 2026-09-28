@@ -1,4 +1,4 @@
-from rigBuilds.assets.male.custom_rig import rigBiped
+from rubikaY3_2026.Professor.assets.male.custom_rig import rigBiped
 import pymel.core as pm
 import importlib
 importlib.reload(rigBiped)
