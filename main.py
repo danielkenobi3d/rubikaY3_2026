@@ -1,16 +1,15 @@
-# This is a sample Python script.
+curve_by_points(*selection)
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+selection = pm.ls(selection=True)
+
+pm.curve(point=point_data)
+    # point_data =[each.translate.get() for each in points]
+    point_data.append(each.translate.get())
+for each in points:
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+    point_data = []
+def curve_by_points(*points):
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+import pymel.core as pm
