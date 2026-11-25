@@ -8,3 +8,6 @@ def build_biped_rig():
     rig_biped.build()
     pm.parent('geo', 'rig')
     pm.parent('environment', 'rig')
+
+def custom_rig():
+    pass
