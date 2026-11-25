@@ -34,6 +34,5 @@ class AttachToGeo(rigBase.RigBase):
 
 
 if __name__ == '__main__':
-    print('whatever')
     my_rig = AttachToGeo()
     my_rig.create_point_base(*pm.ls('C_mouth00_reference_pnt'), geometry='C_head00_msh')
