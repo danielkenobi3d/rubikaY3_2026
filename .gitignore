@@ -8,15 +8,15 @@
 # Packages
 *.egg
 *.egg-info
-.idea/
-dist/
-eggs/
-parts/
-var/
-sdist/
-develop-eggs/
+/.idea/
+/dist/
+/eggs/
+/parts/
+/var/
+/sdist/
+/develop-eggs/
 .installed.cfg
-docs/build
+/docs/build
 # Installer logs
 pip-log.txt
 
