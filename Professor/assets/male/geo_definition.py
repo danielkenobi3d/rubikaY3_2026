@@ -8,5 +8,6 @@ visibility = {
                          'R_twistOrigin00_clavicle_grp', 'R_bendy00_arm_grp', 'R_bendy01_arm_grp', 'R_bendy02_arm_grp',
                          'R_twistOrigin00_arm_grp', 'R_bendy03_arm_grp', 'R_bendy04_arm_grp', 'R_bendy05_arm_grp',
                          'C_twistOrigin00_neck_grp', 'C_bendy00_neck_grp', 'C_bendy01_neck_grp', 'C_bendy02_neck_grp'],
-    'reverseSpine':['C_fk01_Spine_grp']
+    'reverseSpine':['C_fk01_Spine_grp'], 
+
     }

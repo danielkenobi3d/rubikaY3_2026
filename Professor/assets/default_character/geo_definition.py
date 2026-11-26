@@ -2,7 +2,7 @@ visibility = {
     'secondaryControls':[],
     'geometry':{
         'eyes':[],
-        'body':[]
+        'body':[],
     }
 
 }
