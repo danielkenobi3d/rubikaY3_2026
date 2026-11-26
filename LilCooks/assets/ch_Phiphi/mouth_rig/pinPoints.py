@@ -46,6 +46,12 @@ class PinPoints(rigBase.RigBase):
                 uv_pins_driving_outputs.create_point_base(control, geometry =   self.geometry,
                                                           system='outputsControls')
                 self.create.constraint.matrix_node_base(control, uv_pins_driving_outputs.position_reference_locator, mo=True)
+                reset_joint, joint = self.create.joint.point_base(points)
+                pm.parent(reset_joint, self.rig_system.joints)
+                self.reset_joints.append(reset_joint)
+                self.joints.append(joint)
+                self.create.constraint.matrix_node_base(uv_pins_driving_outputs.tip, reset_joint)
+
 
 if __name__ == '__main__':
     list_of_points = pm.ls('C_mouth00_reference_pnt')
